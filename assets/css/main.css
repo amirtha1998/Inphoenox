@@ -6,6 +6,64 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/* Table Styling */
+    .custom-table {
+      border: 2px solid black;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-table th {
+      background-color: #FFD700; /* Dark Yellow */
+      color: black;
+      border-bottom: 2px solid black;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .custom-table td, .custom-table th {
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid black;
+    }
+
+    .custom-table tbody tr:hover {
+      background-color: #fafafa; /* Subtle hover effect */
+    }
+
+    /* Button Styling */
+    .btn-custom {
+      background-color: #FFD700; /* Dark Yellow */
+      color: black;
+      border-radius: 5px;
+      padding: 5px 15px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #FFC000; /* Slightly darker yellow */
+      color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+.header .logo img {
+  max-height: 100px; /* Increase this value as needed */
+  margin-right: 10px;
+}
+
+.experience-badge {
+  background: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+  color: #fff; /* Text color to make it readable */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.header {
+  padding: 30px 0; /* Adjust padding as required */
+}
+
+
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
@@ -175,7 +233,7 @@ h6 {
 .header .logo h1 {
   font-size: 24px;
   margin: 0;
-  font-weight: 500;
+  font-weight: 800;
   color: var(--heading-color);
 }
 
@@ -486,7 +544,7 @@ h6 {
 .footer .footer-about .logo span {
   color: var(--heading-color);
   font-family: var(--heading-font);
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -632,7 +690,7 @@ h6 {
 
 .page-title h1 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 10px;
 }
 
@@ -1098,7 +1156,7 @@ section,
   position: absolute;
   bottom: 5%;
   right: 5%;
-  background-color: var(--accent-color);
+  background: rgba(0, 0, 0, 0.5);
   color: var(--contrast-color);
   padding: 1.5rem;
   border-radius: 0.5rem;
